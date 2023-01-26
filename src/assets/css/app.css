@@ -1,0 +1,72 @@
+/*==
+ * Vue.js & TailwindCSS Portfolio Main CSS File
+ * Powered by: @realstoman
+*/
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom Styles Below */
+
+body {
+	font-family: 'Tomorrow-Regular';
+}
+
+/* Fonts */
+@font-face {
+	font-family: 'Tomorrow-Medium';
+	src: url('../fonts/Tomorrow-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-tomorrow-medium {
+	font-family: 'Tomorrow-Medium';
+}
+
+@font-face {
+	font-family: 'Tomorrow-Regular';
+	src: url('../fonts/Tomorrow-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-tomorrow-regular {
+	font-family: 'Tomorrow-Regular';
+}
+
+@font-face {
+	font-family: 'Tomorrow-SemiBold';
+	src: url('../fonts/Tomorrow-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-tomorrow-semibold {
+	font-family: 'Tomorrow-SemiBold';
+}
+
+@font-face {
+	font-family: 'Blanka-Regular';
+	src: url('../fonts/Blanka-Regular.otf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-blanka-regular {
+	font-family: 'Blanka-Regular';
+}
+
+/* Active class for navigation menu */
+.router-link-active,
+.router-link-exact-active {
+	@apply text-green-800;
+	@apply text-green-600 dark:text-green-300;
+}

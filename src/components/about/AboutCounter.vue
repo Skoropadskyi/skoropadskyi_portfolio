@@ -1,0 +1,72 @@
+<template>
+  <div class="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
+    <!-- About me counters -->
+    <div
+      class="font-tomorrow-regular container mx-auto py-20 block sm:flex sm:justify-between sm:items-center"
+    >
+      <!-- Years of experience counter -->
+      <div class="mb-20 sm:mb-0">
+        <counter
+          ref="counter"
+          :startAmount="0"
+          :endAmount="3"
+          :duration="1"
+          :autoinit="true"
+          class="font-tomorrow-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
+          aria-label="About Status Counter"
+        />
+        <span class="block text-md text-ternary-dark dark:text-ternary-light">
+          {{ experienceTitle }}
+        </span>
+      </div>
+
+      <!-- Positive feedback counter -->
+      <div class="mb-20 sm:mb-0">
+        <counter
+          ref="counter"
+          :startAmount="0"
+          :endAmount="91"
+          :duration="1"
+          suffix="%"
+          :autoinit="true"
+          class="font-tomorrow-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
+        />
+        <span class="block text-md text-ternary-dark dark:text-ternary-light">
+          {{ feedbackTitle }}
+        </span>
+      </div>
+
+      <!-- Projects completed counter -->
+      <div class="mb-20 sm:mb-0">
+        <counter
+          ref="counter"
+          :startAmount="0"
+          :endAmount="15"
+          :duration="1"
+          :autoinit="true"
+          class="font-tomorrow-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
+        />
+        <span class="block text-md text-ternary-dark dark:text-ternary-light">
+          {{ projectsTitle }}
+        </span>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import counter from 'vue3-autocounter'
+export default {
+  components: {
+    counter,
+  },
+  data: () => {
+    return {
+      experienceTitle: 'Years of experience',
+      githubTitle: 'Stars on GitHub',
+      feedbackTitle: 'Positive feedback',
+      projectsTitle: 'Projects completed',
+    }
+  },
+}
+</script>
