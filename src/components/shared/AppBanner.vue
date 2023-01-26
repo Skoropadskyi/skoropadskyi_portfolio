@@ -16,8 +16,8 @@
       </p>
       <div class="flex justify-center sm:block">
         <a
-          download="Stoman-Resume.pdf"
-          href="/files/Stoman-Resume.pdf"
+          download="Skoropadskyi-Resume.pdf"
+          href="./public/files/Skoropadskyi-Resume.pdf"
           class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-green-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-green-50 focus:ring-1 focus:ring-green-900 hover:bg-green-700 text-gray-500 hover:text-white duration-500"
           aria-label="Download Resume"
         >
