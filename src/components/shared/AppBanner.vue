@@ -17,7 +17,7 @@
       <div class="flex justify-center sm:block">
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1QVk51Ol4U8M6_wSt6_xanaI2PqN-SuuO/view?usp=sharing"
+          href="https://drive.google.com/file/d/1E6Gr2s_Xklh-eEB-tW_18gxoY8zyRz9U/view?usp=sharing"
           class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-green-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-green-50 focus:ring-1 focus:ring-green-900 hover:bg-green-700 text-gray-500 hover:text-white duration-500"
           aria-label="Download Resume"
         >
